@@ -52,7 +52,7 @@ class HTMLHandler:
         driver.get(website)
         driver.refresh()
 
-        # Identify the number of rows having the <tr> tag
+        # Get all the rows having the <tr> tag
         rows = driver.find_elements_by_xpath("//table/tbody/tr")
 
         # Close the browser

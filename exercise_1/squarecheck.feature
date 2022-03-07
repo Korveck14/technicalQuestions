@@ -44,12 +44,4 @@ Feature: Square check
     |  00,00 |  00,99 |  99,00 |  99,99 |  clear |    none
     |  25,25 |  25,75 |  75,25 |  75,75 |  clear |    none
     |  98,98 |  98,99 |  99,98 |  99,99 |  clear |    none
-    
-# Things I am missing about the acceptance criteria:
-# - Which are the upper limits of the coordinates? Could we send a 320000,320000 coordinate?
-# - Are negative coordinates accepted? (e.g: -25,-10)
-# - Are decimal numbers supported? (e.g: 25.01,10.99)
-# - What message is shown if the written coordinates are not supported?
 
-# For what I did I assumed only positive numbers up to 2 digits. 
-# Also inside the Then step I would check whether the clear button has been pressed to check all the forms are back to blank.
