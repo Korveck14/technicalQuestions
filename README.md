@@ -8,9 +8,9 @@ Things I am missing about the acceptance criteria:
 - Are decimal numbers supported? (e.g: 25.01,10.99)
 - What message is shown if the written coordinates are not supported?
 
-For the proposed solution I assumed that only positive numbers up to 2 digits are accepted for the coordinates. Also inside the Then step I would check whether the clear button has been pressed to check all the forms are back to blank.
+For the proposed solution I assumed that only positive numbers up to 2 digits are accepted for the coordinates. Also, inside the Then step I would check whether the clear button has been pressed to check all the forms are back to blank.
 
-Also, in order to have more variants of the test cases I would play with for loops and randoms in order to generate coordinates of squares or not squares. Nevertheless, I don't think it was the point of the exercise since Gherkin does not allow that, or at least I'm not aware of.
+Finally, in order to have more variants of the test cases I would play with for loops and randoms in order to generate coordinates of squares or not squares. Nevertheless, I don't think it was the point of the exercise since Gherkin does not allow that, or at least I'm not aware of.
 
 ## Exercise 2 clarifications
 
