@@ -4,10 +4,10 @@ Feature: Square check
 
   Scenario Outline: The user inputs <coord1>, <coord2>, <coord3>, <coord4> and clicks the <button> button
     Given The user opens a square check page
-    When the user inputs the <coord1> to coordinate 1
-	And the user inputs the <coord2> to coordinate 2
-	And the user inputs the <coord3> to coordinate 3
-	And the user inputs the <coord4> to coordinate 4
+    When the user inputs the <coord1> to coordinate one
+	And the user inputs the <coord2> to coordinate two
+	And the user inputs the <coord3> to coordinate three
+	And the user inputs the <coord4> to coordinate four
 	And the user clicks the <button> button.
     Then the user should be presented with a <message> message
 
